@@ -20,9 +20,6 @@ public interface UserService {
 
     Optional<User> findUserByEmailAddress(String emailAddress);
     Optional<User> deleteByEmailAddress(String emailAddress);
-
    Optional<User> updateUserInfo(UpdateUserInfoRequest updateUserInfoRequest);
-
-
     void enableUser(String emailAddress);
 }

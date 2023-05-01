@@ -3,7 +3,6 @@ package com.semicolon.africa.jumiaApp.service.cart;
 import com.semicolon.africa.jumiaApp.data.model.CartProduct;
 import com.semicolon.africa.jumiaApp.data.model.Product;
 import com.semicolon.africa.jumiaApp.data.repository.CartProductRepository;
-import com.semicolon.africa.jumiaApp.data.repository.ProductRepository;
 import com.semicolon.africa.jumiaApp.dtos.request.AddCartProductRequest;
 import com.semicolon.africa.jumiaApp.dtos.request.UpdateCartProduct;
 import com.semicolon.africa.jumiaApp.exceptions.GenericHandlerException;
